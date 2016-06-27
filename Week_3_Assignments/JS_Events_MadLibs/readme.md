@@ -6,7 +6,7 @@ Submit a link to your github repo
 
 Start with this webpage, which has several input elements and a button:
 
-`
+```html
 <!DOCTYPE html>
 <html>
  <head>
@@ -29,7 +29,7 @@ Start with this webpage, which has several input elements and a button:
   
  </body>
 </html>
-`
+```
 
 ---------------------------------
 Add a script tag to the bottom of the page for your code.
