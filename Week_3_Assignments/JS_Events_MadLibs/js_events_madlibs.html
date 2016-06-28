@@ -6,7 +6,6 @@
 	 </head>
 	 
 	 <body>
-	 
 		 <h1>Mad Libs</h1>
 		 
 		 <ul>
@@ -16,22 +15,19 @@
 		 </ul>
 		 
 		 <button id="lib-button">Lib it!</button>
-		  
+		 
 		 <div id="story" style="margin: 20px;"></div>
 		 
 		 <script type="text/javascript">
-		 	
 		 	function makeMadLibs() {
-		      var storyDiv = document.getElementById("story");
 		      var name = document.getElementById("person").value;
 		      var adjective = document.getElementById("adjective").value;
 		      var noun = document.getElementById("noun").value;
-		      storyDiv.innerHTML = name + " feasted on a " + adjective + " " + noun + "... and it was tasty!";
+		      document.getElementById("story").innerHTML = name + " feasted on a " + adjective + " " + noun + "... and it was tasty!";
 		    }
 
 		    var libButton = document.getElementById('lib-button');
 		    libButton.addEventListener('click', makeMadLibs);
-
 		 </script>
 
 	 </body>

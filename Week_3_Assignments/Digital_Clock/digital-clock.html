@@ -2,16 +2,15 @@
 <html>
     <head>
         <title>The Time</title>
-        <script src="digital-clock.js" type="text/javascript" ></script>
         <link rel="stylesheet" type="text/css" href="digital-clock.css">
     </head>
  
     <body onload="setInterval('updateClock()', 50);">
-        <!-- This is the container for our clock, it can be any HTML element. -->
         <div id="clock-container">
         	<div id="clock">
         		<div id="clock-text"></div>
         	</div>
         </div>
+         <script src="digital-clock.js" type="text/javascript" ></script>
     </body>
 </html>
